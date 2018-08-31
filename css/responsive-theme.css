@@ -1,0 +1,415 @@
+
+
+
+
+@media screen and (max-width: 1199px) {
+    .section_head {
+    	font-size: 32px;
+	}
+	
+	#about p {
+    	font-size: 14px;
+	}
+	
+	.service_box h3 {
+		font-size: 16px;
+	}
+	
+	.product_box h4 {
+		font-size: 16px;
+	}
+	
+	#gallery h2 {
+    	font-size: 20px;
+	}
+	
+	.gal_img_wrap {
+    	height: 121px;
+	}
+	
+	.carousel-showmanymoveone .carousel-control {
+  		top: 18%;
+	}
+
+}
+
+@media screen and (max-width: 1030px)
+{	
+	.carousel-showmanymoveone .carousel-control.left {
+		margin-left: -10px;
+	}
+	.carousel-showmanymoveone .carousel-control.right {
+	  	margin-right: -10px;
+	}
+	
+	.carousel-showmanymoveone .carousel-control {
+  		top: 16%;
+	}
+}
+
+@media screen and (max-width: 991px)
+{	
+	.menubar .navbar-right {
+		 margin-right: 15px; 
+	}
+
+	.menu .nav li a{
+	 	font-size: 13px;
+	 	color: #fff;
+	 	text-align: center;
+	 	
+	 	padding: 15px 8px; 
+	 }
+	.menubar .navbar-collapse {
+	    padding-left: 0px;
+	    padding-right: 0px;
+	}
+
+   	#myCarousel .carousel-caption h3 {
+	    font-size: 26px;
+	}
+	
+	.section_head {
+		font-size: 28px;
+	}	
+	
+  	#about p {
+		font-size: 13px;
+		padding-bottom: 10px;
+	}
+	
+	.read_more_btn {
+		font-size: 13px;
+		padding: 7px 0px;
+		margin-top: 10px;
+	}
+	
+	.services_cont_wrapper {
+		padding-bottom: 0;
+	}
+	
+	.service_box{
+		margin-bottom: 30px;
+	}
+	
+	.service_box h3 {
+		font-size: 18px;
+	}
+	
+	.service_box p {
+    	font-size: 13px;
+	}
+	
+	#services .read_more_btn {
+		margin-top: 15px;
+	}
+	
+	.carousel-showmanymoveone .carousel-control {
+		top: 28%;
+	}
+	
+	.product_box h4 {
+		font-size: 18px;
+	}
+	
+	.carousel-showmanymoveone .carousel-control.left {
+		margin-left: -20px;
+	}
+	.carousel-showmanymoveone .carousel-control.right {
+	  	margin-right: -20px;
+	}
+	
+	.gal_box, .vid_gal_box {
+		margin-bottom: 30px;
+	}
+	
+	.gal_img_wrap {
+		height: 195px;
+	}
+	
+	.gal_box h4, .vid_gal_box h4 {
+    	font-size: 18px;
+	}
+	
+	#gallery .read_more_btn {
+		margin-top: 10px;
+	}	
+}
+
+@media screen and (max-width: 800px)
+{
+	.carousel-showmanymoveone .carousel-control.left {
+		margin-left: 0px;
+	}
+	.carousel-showmanymoveone .carousel-control.right {
+	  	margin-right: 0px;
+	}
+	
+}
+
+
+@media screen and (max-width: 767px)
+{	
+	#topbar .col-xs-12{
+		width: 50%;
+	}
+	
+	.menu .nav li{
+		padding-left: 0px;
+		border-bottom: 1px solid #fff;
+	}
+
+	.menubar .navbar-nav{ margin: 0; }
+
+	.menubar .navbar-default{ padding-left: 0px; padding-right: 0px; }
+
+	.menubar .navbar-default .navbar-nav > li > a {
+	    font-size: 14px;
+    	text-align: left;
+		padding: 7px 15px;
+	}
+	.menubar .navbar-collapse {
+	    padding-left: 0px;
+	    padding-right: 0px;
+	}
+	
+	.menubar .navbar-default .navbar-toggle {
+	    border: 2px solid #343434;
+	    background-color: #343434;
+	    margin-top: 8px;
+	    margin-bottom: 5px;
+    	padding: 7px;
+
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		-ms-border-radius: 0px;
+		border-radius: 0px;
+		
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+						
+	}
+
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:active,
+	.navbar-default .navbar-toggle:focus{
+		background-color: transparent;
+		border-color: #fff;
+	} 
+	.navbar-default .navbar-toggle .icon-bar {
+	    background-color: #fff;
+	}
+
+
+	#myCarousel .caption1,
+	#myCarousel .caption2 {
+	    top: 30% !important;
+	}
+	
+	#myCarousel .caption1{
+		left: 5%;
+	}
+	#myCarousel .caption2{
+		right: 5%;
+	}
+	
+	#myCarousel .carousel-caption h3 {
+		font-size: 22px;
+	}
+
+	#myCarousel .carousel-indicators{
+		bottom: 1px;
+	}
+
+	#myCarousel .carousel-indicators li {
+	    width: 13px;
+	    height: 13px;
+	    margin: 1px;
+	    border-radius: 13px;
+	}
+	
+	.about_img_cont {
+    	margin-bottom: 30px;
+	}
+	
+	.services_cont_wrapper .col-xs-12{
+		width: 50%;
+	}
+	
+	#itemslider .col-xs-12{
+		width: 50%;
+	}
+	
+	.carousel-showmanymoveone .carousel-control {
+		top: 25%;
+	}
+	
+	.photo_gal_images .col-xs-12{
+		width: 50%;
+	}
+	
+	#gallery .read_more_btn {
+		margin-top: 0;
+	}
+	
+	.vid_gal_outer{
+		margin-top: 30px;
+	}
+	
+	.video_gal_wrap .col-xs-12{
+		width: 50%;
+	}
+	
+	.loc_map {
+		margin-top: 30px;
+	}
+	
+}
+
+@media screen and (max-width: 630px)
+{	
+	
+	.section_head {
+		font-size: 24px;
+	}
+	
+	.carousel-showmanymoveone .carousel-control {
+		top: 22%;
+	}
+	
+	.gallery_cont_wrapper {
+		padding-top: 10px;
+	}
+	
+	#gallery h2 {
+		font-size: 18px;
+	}
+	
+	.gal_box h4, .vid_gal_box h4 {
+		font-size: 16px;
+	}
+	
+}
+
+
+@media screen and (max-width: 560px)
+{	
+	.cont_us li a {
+		font-size: 13px;
+	}
+	
+	.cont_us li i {
+		font-size: 10px;
+		width: 20px;
+		height: 20px;
+		line-height: 18px;
+		border: 1px solid #fff;
+	}
+	
+}
+
+@media screen and (max-width: 535px)
+{	
+
+	.service_box h3 {
+		font-size: 16px;
+	}
+	
+	.product_box h4 {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 500px)
+{	
+	.cont_us li a {
+    	padding: 0px 5px 0px 5px;
+	}
+	
+	.menubar .navbar-default .navbar-nav > li > a {
+		font-size: 13px;
+		padding: 4px 15px;
+	}
+	
+	#myCarousel .caption1{
+		left: 15px;
+	}
+	#myCarousel .caption2{
+		right: 15px;
+	}
+	
+	#myCarousel .carousel-caption h3 {
+		font-size: 20px;
+	}
+	
+	#myCarousel .carousel-indicators li {
+		width: 11px;
+		height: 11px;
+		margin: 1px 2px;
+		border-radius: 13px;
+	}
+	
+	.services_cont_wrapper .col-xs-12{
+		width: 100%;
+	}
+	
+	.service_box h3 {
+		font-size: 18px;
+	}
+	
+	#itemslider .col-xs-12{
+		width: 100%;
+	}
+	
+	.product_box h4 {
+		font-size: 18px;
+	}
+	
+	.photo_gal_images .col-xs-12{
+		width: 100%;
+	}
+	
+	.gal_img_wrap {
+		height: auto;
+	}
+	
+	.video_gal_wrap .col-xs-12{
+		width: 100%;
+	}
+	
+	.gal_box h4, .vid_gal_box h4 {
+		font-size: 18px;
+	}
+	
+}
+
+@media screen and (max-width: 430px)
+{
+	#topbar .col-xs-12{
+		width: 100%;
+	}	
+	.quick_mail {
+		text-align: left;
+	}
+	
+}
+
+
+@media screen and (max-width: 400px)
+{
+	#myCarousel .carousel-caption h3 {
+		font-size: 16px;
+	}
+	#myCarousel .carousel-caption h3 span {
+		padding: 2px 10px;
+	}
+	
+	#myCarousel .caption1, #myCarousel .caption2 {
+		top: 25% !important;
+	}
+	
+}
+
+
+
