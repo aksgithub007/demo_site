@@ -408,7 +408,10 @@
 	#myCarousel .caption1, #myCarousel .caption2 {
 		top: 25% !important;
 	}
-	
+	.carousel-showmanymoveone .carousel-control.left {
+  margin-left: -13px;
+   }
+   
 }
 
 

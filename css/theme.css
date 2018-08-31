@@ -886,7 +886,8 @@ body{
 	display: block;
 	width: 100%;
 	background-color: #fff;
-	padding: 60px 0px;
+	padding-top:30px;
+	padding-bottom:30px;
 	text-align: center;
 }
 .mis-slider li img {
