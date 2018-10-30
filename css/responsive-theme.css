@@ -296,7 +296,7 @@
 @media screen and (max-width: 560px)
 {	
 	.cont_us li a {
-		font-size: 13px;
+		font-size: 10px;
 	}
 	
 	.cont_us li i {
@@ -325,6 +325,7 @@
 {	
 	.cont_us li a {
     	padding: 0px 5px 0px 5px;
+
 	}
 	
 	.menubar .navbar-default .navbar-nav > li > a {
