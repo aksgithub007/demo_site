@@ -194,8 +194,8 @@
 	.navbar-default .navbar-toggle:hover,
 	.navbar-default .navbar-toggle:active,
 	.navbar-default .navbar-toggle:focus{
-		background-color: transparent;
-		border-color: #fff;
+		background-color: #333;
+		border-color: #333;
 	} 
 	.navbar-default .navbar-toggle .icon-bar {
 	    background-color: #fff;
@@ -319,6 +319,7 @@
 	.product_box h4 {
 		font-size: 16px;
 	}
+	
 }
 
 @media screen and (max-width: 500px)
@@ -382,7 +383,41 @@
 	.gal_box h4, .vid_gal_box h4 {
 		font-size: 18px;
 	}
-	
+	input[type='text'], input[type='email']{
+		margin-bottom:10px;
+	}
+	.aks{
+		margin-top: 12%;
+	}
+	.menubar .navbar{
+		padding-top: 20px;
+	}
+	.menubar .navbar .navbar-brand img{
+      margin-top: -35px;
+ 	}
+ 	#product1 .pr_wrapper{
+ 		margin-bottom: 30px;
+ 	}
+ 	#quote h3{
+		font-weight: 600;
+	font-size: 20px;
+    }
+    #quote p{
+    		font-weight: 400;
+	font-size: 12px;
+    }
+    #quote h4{
+    	font-weight: 600;
+	font-size: 18px;
+    }
+    .form-group
+    {
+    	padding:5px 0px;
+    }
+    #quote .enq{
+    	margin-top: 3%;
+	margin-left: 40%;
+    }
 }
 
 @media screen and (max-width: 430px)
@@ -394,13 +429,12 @@
 		text-align: left;
 	}
 	
-}
 
 
 @media screen and (max-width: 400px)
 {
 	#myCarousel .carousel-caption h3 {
-		font-size: 16px;
+		font-size: 30px;
 	}
 	#myCarousel .carousel-caption h3 span {
 		padding: 2px 10px;
@@ -412,8 +446,75 @@
 	.carousel-showmanymoveone .carousel-control.left {
   margin-left: -13px;
    }
-   
-}
+   .quick_mail{
+	margin-top: 15px;
+	margin-bottom: 5px;
+    }
+   .quick_mail li{
+   	margin-left: -3px;
+   }
+  #certificates .certificate_col{
+  	margin-bottom:30px;
+  }
 
+}
+@media screen and (max-width: 320px)
+{
+.quick_mail{
+	margin-top: 15px;
+	margin-bottom: 5px;
+    }
+   .quick_mail li{
+   	margin-left: -3px;
+   }
+
+   .cont_us li a{
+   	font-size: 14px;
+   }
+   .cont_us li i{
+   	line-height: 22px;
+   }
+   	#myCarousel .carousel-caption h3 {
+		font-size: 36px;
+	}
+	.top_ban_agile .btn-lg{
+		margin-bottom: 16px;
+	}
+	#services h1{
+		font-size: 30px;
+	}
+	#contact h1{
+		font-size: 30px;
+	}
+	#about h3{
+		font-size: 30px;
+	}
+	#product1 .pr_wrapper{
+ 		margin-bottom: 30px;
+ 	}
+ 	#quote h3{
+		font-weight: 600;
+	font-size: 15px;
+    }
+    #quote p{
+    		font-weight: 400;
+	font-size: 12px;
+    }
+    #quote h4{
+    	font-weight: 600;
+	font-size: 13px;
+    }
+    .form-group
+    {
+    	padding:5px 0px;
+    }
+    #quote .enq{
+    	margin-top: 3%;
+	margin-left: 33%;
+    }
+     #quote #phone{
+    	width: 210px; 
+    }
+}
 
 

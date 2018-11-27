@@ -1,0 +1,45 @@
+
+.hide {
+  display: none; }
+
+pre {
+  margin: 0 !important;
+  display: inline-block; }
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  background: none; }
+
+#phone {
+  height: 35px;
+  border-radius:10px;
+  font-family: 'Raleway', sans-serif;
+  padding:7px 0px 7px 0px;
+  margin: 0;
+  font-size: 100%;
+  text-align: center;
+  color: inherit; }
+  input[disabled],  {
+    background-color: #eee; }
+
+#phone, select {
+  border: 1px solid #999;
+  width: 290px; }
+
+::-webkit-input-placeholder {
+  color: #BBB; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #BBB;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  color: #BBB; }
+
+#result {
+  margin-bottom: 100px; }

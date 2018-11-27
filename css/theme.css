@@ -6,7 +6,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
 
 @import url('https://fonts.googleapis.com/css?family=Scope+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
+@font-face {
+    font-family:'greatvibes';
+    src: url("../fonts/GreatVibes-Regular.otf") format("opentype");
+}
+a{
+	text-decoration: none;
+}
 body{
 /*	font-family: 'Roboto', sans-serif;*/
 	font-family: 'Open Sans', sans-serif;
@@ -20,7 +29,7 @@ body{
 #topbar{
 	display: block;
 	width: 100%;
-	background-color: #212121;
+	background-color: #01cdff;
 	padding: 5px 0px 0px;	
 }
 .cont_us ul{
@@ -28,6 +37,8 @@ body{
 	padding-left: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	display: inline-block;
+	vertical-align: middle;
 }
 .cont_us li{
 	display: inline-block;
@@ -52,18 +63,18 @@ body{
 	padding: 0px 5px 0px 10px;
 	color: #fff;
 	font-size: 14px;
-	
+	  font-family: 'Raleway', sans-serif;
 	transition: all 0.3s ease-in-out;
 }
 
 .cont_us li:hover i{
 	transform: rotate(360deg);
-	background-color: #37c386;
-	border-color: #37c386;
+	background-color: #333;
+	border-color: #333;
 }
 .cont_us li:hover a{
 	text-decoration: none;
-	color: #37c386;
+	color: #333;
 }
 .quick_mail{
 	text-align: right;
@@ -78,8 +89,12 @@ body{
 	margin-bottom: 0px;
 	border-radius: 0px;
 	border: none;
+	padding-bottom:25px;
 }
-
+.menubar .navbar .navbar-brand img{
+	margin-top: -15px;
+	width: 100%;
+}
 .menubar .navbar-default {
     background-color: transparent;
 }
@@ -108,6 +123,8 @@ body{
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	margin-top: 20px;
+	font-family: 'Raleway', sans-serif;
 }
 .menubar .navbar-default .navbar-nav > li > a:hover,
 .menubar .navbar-default .navbar-nav > li > a:focus{
@@ -127,7 +144,7 @@ body{
 }
 .menubar .navbar .collapse .dropdown .dropdown-menu li a
 {
-	
+	font-family: 'Raleway', sans-serif;
 	color:#212121;
 }
 .menubar .navbar .collapse .dropdown .dropdown-menu li a:hover,
@@ -150,49 +167,53 @@ body{
   z-index:2;
 }
 .carousel .aa {
-	background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
-	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
-	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
-	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
+	background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner9.jpg) no-repeat;
+	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner9.jpg) no-repeat;
+	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner9.jpg) no-repeat;
+	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner9.jpg) no-repeat;
 	background-size: cover;
 }
 
 .carousel .aa.item2 {
-	background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner2.jpg) no-repeat;
-	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner2.jpg) no-repeat;
-	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner2.jpg) no-repeat;
-	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner2.jpg) no-repeat;
+	background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner8.jpg) no-repeat;
+	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner8.jpg) no-repeat;
+	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner8.jpg) no-repeat;
+	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner8.jpg) no-repeat;
 	background-size: cover;
 }
 
 .carousel .aa.item3 {
-	background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
-	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
-	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
-	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
+	background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner9.jpg) no-repeat;
+	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner9.jpg) no-repeat;
+	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner9.jpg) no-repeat;
+	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner9.jpg) no-repeat;
 	background-size: cover;
 }
 .carousel .aa.item4 {
-	background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
-	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
-	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
-	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
+	background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner10.jpg) no-repeat;
+	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner10.jpg) no-repeat;
+	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner10.jpg) no-repeat;
+	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner10.jpg) no-repeat;
 	background-size: cover;
 }
 
 .carousel-caption h2,
 .carousel-caption h3 {
 	font-size: 3.3em;
-	font-weight: 300;
+	font-weight: 600;
 	letter-spacing: 1px;
-	margin-top:80px;
-  font-family: 'Montserrat', sans-serif;
+	margin-top:100px;
+ font-family: 'greatvibes',Arial, sans-serif;
 }
-
+.carousel-caption hr{
+	width:10%;
+	border: 2px solid #fff;
+	border-radius: 10px;
+}
 .carousel-caption h2 span,
 .carousel-caption h3 span {
 	font-weight: 600;
- font-family: 'Montserrat', sans-serif;
+ font-family: 'greatvibes',Arial, sans-serif;
  color: #37c386;
 }
 
@@ -264,17 +285,47 @@ body{
 }
 
 .carousel-indicators {
-	bottom: 20%;
+	bottom: 10%;
 	left: 50%;
 }
 
 .carousel-caption {
 	position: inherit;
 	min-height: 550px!important;
-	padding-top: 10em;
+	padding-top: 5em;
 	text-align: center;
 }
-
+.top_ban_agile{
+	display: inline-block;
+}
+.top_ban_agile .btn-lg{
+	margin-left:25px;
+}
+.top_ban_agile .btn-lg.prd{
+	background-color:#37c386;
+	border-color: #37c386;
+	color: #fff;
+	transition: 0.2s all;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+.top_ban_agile .btn-lg.prd:hover{
+    background-color:transparent;
+	border-color: #fff;
+	color: #fff;	
+}
+.top_ban_agile .btn-lg.redm{
+	transition: 0.2s all;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+.top_ban_agile .btn-lg.redm:hover{
+    background-color:#37c386;
+	border-color: #37c386;
+	color: #fff;
+}
 /*.carousel-control {
 	line-height: 27em;
 }*/
@@ -333,22 +384,80 @@ body{
 #runner_text .str_wrap{
 	background: none;
 }
-
+/************Services section in index start here*****************/
+.services{
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.services .icon_wrapper{
+	width: 100px;
+	height: 100px;
+	background-color: #37c386;
+	border-radius: 50%;
+	border:1px solid #fff;
+	position: relative;
+    margin: 0px auto;
+}
+.services .icon_wrapper .icon_content{
+position: absolute;
+top: -6px;
+left:0;
+}
+.services h3{
+	font-weight: 700;
+ font-family: 'Raleway', sans-serif;
+ color: #333;
+ text-align: center;
+}
+.services hr{
+	width: 15%;
+	border: 2px solid #37c386;
+	border-radius:10px;
+}
+.services p{
+	font-size: 1.1em;
+	font-weight: 400;
+	color: #666;
+	text-align: center;
+	  font-family: 'Raleway', sans-serif;
+}
+.services a{
+	
+	text-decoration: none;
+}
+.services a p:hover{
+	
+	color:#333;
+}
+.services a p
+{
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #37c386;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
 /******** About Us Index ********/
 #about{
 	display: block;
 	width: 100%;
-	background-color: #fff;
-	padding: 60px 0px;
+	/*background-color: #f4f3ee;*/
+	background-image: url('../img/about_bkg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 60px 20px;
 	text-align: center;
 }
 .section_head, .section_head1{
 	font-size: 36px;
-	font-family: 'Scope One', serif;
+	/*font-family: 'Scope One', serif;*/
+	  font-family: 'Raleway', sans-serif;
 	text-align:center;
 	text-transform: uppercase;
 	margin-top: 0;
 	margin-bottom: 30px;
+	font-weight: 700;
 	/*border-bottom: 2px solid #343434;*/
 	display: inline-block; 
 }
@@ -364,7 +473,7 @@ body{
 }
 
 .about_img_cont{
-	width:90%;
+	width:60%;
 	display: block;
 	overflow: hidden;
 	border: 4px solid transparent;
@@ -378,16 +487,17 @@ body{
 	-webkit-transition: all 5s;
 	-moz-transition: all 5s;
 	transition: all 5s;
+	margin-left: 20px;
 }
 
 .about_img_cont:hover{
-	border-color: #ffcc33;
+	/*border-color: #ffcc33;*/
 }
 
 .about_img_cont:hover img{
-	-webkit-transform: scale(1.5);
+	/*-webkit-transform: scale(1.5);
 	-moz-transform: scale(1.5);
-	transform: scale(1.5);
+	transform: scale(1.5);*/
 }
 
 #about p{
@@ -397,11 +507,14 @@ body{
 	line-height: 24px;
 	margin-bottom: 0px;	
 	padding-bottom: 15px;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
 }
 #about p span
 {
 	color: #333;
 	font-weight:700;
+	font-family: 'Raleway', sans-serif;
 }
 
 .read_more_btn{
@@ -415,6 +528,7 @@ body{
 	letter-spacing: 1px;
 	font-weight: 500;
 	margin-top: 15px;
+	font-family: 'Raleway', sans-serif;
 	
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
@@ -438,18 +552,52 @@ body{
 	transform: translateY(-10px);
 }
 
-
+#about h3{
+	font-size:35px;
+	color:#83c786;
+	font-weight:600;
+	text-align:left;
+	margin-top:15px;
+	margin-bottom:15px;
+	 font-family: 'greatvibes',Arial, sans-serif;
+}
+#about h4{
+	font-size:20px;
+	color:#333;
+	font-weight:700;
+	text-align:left;
+	text-transform: uppercase;
+	margin-bottom:15px;
+	font-family: 'Raleway', sans-serif;
+}
+#about ul{
+	list-style-type:none;
+	text-align: left;
+}
+#about ul li{
+	font-size: 15px;
+	color: #666;
+	text-align: left;
+	line-height: 24px;
+	margin-bottom: 0px;	
+}
+#about ul li i {
+	font-size: 15px;
+	color: #666;
+	text-align: left;
+	margin-right:10px;
+}
 /*********** services Index ******/
 
 #services{
 	display: block;
 	width: 100%;
-	/*background-color: #f3f3f3;*/
-	background-image: url('../img/services_ban.jpg');
+	background-color: #fff;
+	/*background-image: url('../img/services_ban.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-	background-size: cover;
+	background-size: cover;*/
 	padding: 60px 0px;
 	text-align: center;
 }
@@ -460,14 +608,24 @@ body{
 }
 
 #services h1{
-	color: #fff;
+	color: #333;
 	font-size: 36px;
 	border: 0;
+	margin-bottom: 0px;
+	font-weight:700;
+	font-family: 'Raleway', sans-serif;
 }
-
+#services hr{
+	width: 10%;
+	border:0.5px solid #333;
+	border-radius: 10px;
+}
+#services a{
+text-decoration: none;	
+}
 .service_box{
 	display: block;
-	border: 2px solid #ffffff;
+	border: 3px solid #f4f3ee;
 	text-align: center;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -485,12 +643,12 @@ body{
 }
 
 .service_box h3{
-	font-family: 'Scope One', serif;
-	font-weight: 500;
+	
+	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 20px;
 	color: #37c386;
-	
+	font-family: 'Raleway', sans-serif;
 	line-height: 24px;
 	margin-bottom: 10px;
 	margin-top: 0px;
@@ -502,6 +660,8 @@ body{
 	text-align: center;
 	line-height: 20px;
 	margin-bottom: 0px;	
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 }
 
 .service_box:hover{
@@ -920,13 +1080,36 @@ body{
 }
 /*-- //testimonials --*/
 
-
-
+/**********Membership section start here in index page*******************/
+#membership{
+	padding-top:40px;
+	padding-bottom: 20px;
+	background-color: #f4f3ee;
+}
+#membership h1{
+	color: #333;
+	font-size: 36px;
+	border: 0;
+	margin-bottom: 0px;
+	font-weight:700;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+#membership hr{
+	width: 10%;
+	border:0.5px solid #333;
+	border-radius: 10px;
+}
+#membership .member_wrapper{
+	border:2px solid #333;
+	text-align: center;
+}
 /*contact start here*/
 #contact{
 	display: block;
 	width: 100%;
-	background-color: #343434;
+	background-color: #656565;
 	padding: 60px 0px;
 	text-align:center;
 }
@@ -938,6 +1121,46 @@ body{
 #contact h1{
 	color: #fff;
 	border-color: #fff;
+	margin-bottom: 0px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+
+}
+#contact hr{
+	width: 10%;
+	border:0.5px solid #fff;
+	border-radius: 12px;
+}
+#contact ul{
+	list-style-type: none;
+	width:100%;
+
+}
+#contact ul a{
+	text-decoration: none;
+}
+#contact ul a li{
+	text-align: left;
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 0px;	
+	line-height: 35px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+#contact ul a li:hover{
+color: #37c386;
+}
+#contact ul a li i{
+	margin-right:13px;
+}
+#google_translate_element
+{
+		display: inline-block;
+	vertical-align: top;
+	    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .loc_map{
 	display: block;
@@ -982,10 +1205,14 @@ body{
 	color: #fff;
 	margin-top: 0px;
 	margin-bottom: 5px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 }
 .text_box p{
 	font-size: 14px;
 	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 }
 .text_box a{
 	font-size: 14px;
@@ -993,6 +1220,8 @@ body{
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 }
 
 .text_box a:hover,.text_box a:focus{
@@ -1086,6 +1315,8 @@ body{
 	color: #fff;
 	letter-spacing: 1px;
 	margin-bottom: 0px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 }
 /*Contact US page start*/
 #enquiery
@@ -1123,12 +1354,13 @@ input[type='textarea']
 	text-align:center;
 	min-height:80px;
     border-radius:0px;  
+    margin-bottom: 30px;
 }
 input:hover,
 input:active,
 input:focus
 {
-	border:2px solid #ffcc33;
+	border:2px solid #37c386;
 }
 
 .enq{
@@ -1140,7 +1372,7 @@ input:focus
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 500;
-	margin-top:7%;
+	margin-top:12%;
 	
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
@@ -1156,8 +1388,8 @@ input:focus
 .enq:active,
 .enq:focus{
 	text-decoration: none;
-	background-color: #ffcc33;
-	border-color: #ffcc33;
+	background-color: #87c386;
+	border-color: #37c386;
 	color: #fff;
 	-webkit-transform: translateY(-10px);
 	-moz-transform: translateY(-10px);
@@ -1193,19 +1425,20 @@ input:focus
 	display: block;
 	text-align: center;
 	padding: 40px 0px;
-	background: url('../img/astro_inner_bkg.jpg') no-repeat center;
+	background: url('../images/banner5.jpg') no-repeat center;
 	background-size: cover;
+	margin-top: 15px;
 }
 .inner_page_head{
 	font-size: 36px;
-    font-family: 'Scope One', serif;
+    font-family: 'Raleway', sans-serif;
 	text-align: center;
 	display: inline-block;
 	color: #fff;
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 10px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 .inner_banner .breadcrumb {
 	padding: 8px 0px 0px;
@@ -1216,16 +1449,17 @@ input:focus
 }
 .inner_banner .breadcrumb li{
 	color: #eee;
+	font-family: 'Raleway', sans-serif;
 }
 .inner_banner .breadcrumb li a{
 	color: #eee;
 }
 .inner_banner .breadcrumb li a:hover{
-	color: #ffcc33;
+	color: #37c386;
 	text-decoration: none;
 }
 .inner_banner .breadcrumb li.active{
-	color: #ffcc33;
+	color: #37c386;
 	font-weight: 500;
 }
 /*Inner Page Banner End*/
@@ -1459,6 +1693,284 @@ input:focus
 }
 
 /**********************/
+/**************Certificates Inner Pages Style********************/
+#certificates{
+	padding-top: 80px;
+	padding-bottom:80px;
+	background: #fff;
+}
+#certificates .certificate_wrapper{
+	background:#fff;
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+    border: 2px solid #333;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#certificates .certificate_content{
+	position:relative;
+	top:0;
+	left: 0;
+}
+#certificates .certificate_info{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #333;
+	width: 100%;
+	display: none;
+	transition: all 0.5s;
+
+}
+#certificates .certificate_info a{
+	text-decoration: none;
+}
+#certificates .certificate_info a h3{
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	padding-bottom: 5px;
+}
+#certificates .certificate_wrapper:hover > .certificate_info{
+	display: block;
+	cursor: pointer;
+}
+#certificates .certificate_info:hover h3{
+	color: #37c386;
+}
+/**************Certificates Inner Pages Style********************/
+
+/********************About us page inner style**********************************/
+#aboutus{
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: #fff;
+}
+#aboutus h3{
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 25px;
+	color: #333;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	position: relative;
+}
+/*#aboutus h3:before, #aboutus h3:after {
+    position: absolute;
+    background: #2ebaef;
+    height: 2px;
+    content: '';
+}
+#aboutus h3:before {
+    width: 11%;
+    bottom: -10%;
+    left: 0%;
+}
+#aboutus h3:after {
+    width: 18%;
+    left: 0%;
+    bottom: -25%;
+}
+*/
+#aboutus hr{
+		width:40%;
+		height:2px;
+		border:0;
+		margin-right:70%;
+
+		background-image: linear-gradient(
+	    to left,
+	    rgba(0,0,0,0),
+	    rgba(0,0,0,0.5),
+	    rgba(0,0,0,0.5),
+	    rgba(0,0,0,0)
+	    );
+	    margin-bottom:25px;
+}
+#aboutus h3::after{
+	content: '\f138';
+	position: absolute;
+	left:-25px;
+	font-family: FontAwesome;
+	color: #37c386;
+	font-size: 18px;
+	line-height: 27px;
+}
+#aboutus p{
+	font-size: 14px;
+	color: #666;
+	text-align:left;
+	margin-bottom: 0px;	
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+
+#aboutus ul{
+	list-style-type:none;
+	text-align: left;
+}
+#aboutus ul li{
+	font-size: 14px;
+	color: #666;
+	text-align: left;
+	line-height: 24px;
+	margin-bottom: 0px;	
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+#aboutus ul li i {
+	font-size: 14px;
+	color: #666;
+	text-align: left;
+	margin-right:10px;
+}
+/********************About us page inner style**********************************/
+
+/****************Product Inner pages start here********************/
+#product1{
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: #fff;
+}
+#product1 .pr_wrapper{
+	background-color:#fff;
+	border: 4px solid #37c386;
+	-o-box-shadow: 0px 10px 10px #d7d7d7;
+	-ms-box-shadow: 0px 10px 10px #d7d7d7;
+	-moz-box-shadow: 0px 10px 10px #d7d7d7;
+	-webkit-box-shadow: 0px 10px 10px #d7d7d7;
+	box-shadow: 0px 10px 10px #d7d7d7;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+#product1 .pr_wrapper .pr_content{
+	width: 100%;
+	transition: all 0.5s;
+	overflow: hidden;
+}
+#product1 .pr_wrapper .pr_content img{
+	width: 100%;
+	margin: 0px auto;
+	transition: all 0.5s;
+}
+#product1 .pr_wrapper:hover{
+/*	-o-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	-webkit-transform: translateY(-10px);
+	transform: translateY(-10px);*/
+}
+#product1 .pr_wrapper .pr_content:hover img{
+	-webkit-filter: grayscale(50%);
+	-webkit-transform: scale(1.1);
+	filter: grayscale(50%);
+	transform: scale(1.1);
+}
+/****************Product Inner pages start here********************/
+
+/****************Get the Quote Inner pages start here********************/
+#quote{
+	display: block;
+	background-color: #fff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#quote h3{
+		font-weight: 600;
+	font-size: 25px;
+	color: #333;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+}
+#quote p{
+		font-weight: 400;
+	font-size: 14px;
+	color: #666;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+}
+#quote h4{
+		font-weight: 600;
+	font-size: 20px;
+	color: #333;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+}
+#quote label{
+		font-size: 16px;
+	color: #333;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+#quote label sup{
+		font-size: 20px;
+	color:red;
+	font-weight: 600;
+}
+
+#quote .form-group input[type='text']
+{
+	padding:7px 0px 7px 0px;
+	border:1px solid #999;
+	text-align:left;
+	min-height:20px;
+	border-radius:10px;
+	font-family: 'Raleway', sans-serif;
+	padding-left: 2px;
+}
+
+#quote .form-group input[type='email']
+{
+	padding:7px 0px 7px 0px;
+	border:1px solid #999;
+	text-align:left;
+	min-height:20px;
+    border-radius:10px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 2px;
+}
+#quote .enq{
+	display: inline-block;
+	vertical-align: top;
+	padding: 8px 8px;
+	background-color: #343434;
+	border: 2px solid #343434;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 500;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	border-radius: 0px;
+	margin-top: 5%;
+	margin-left: 45%;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	
+}
+#quote .enq:hover,
+#quote .enq:active,
+#quote .enq:focus{
+	text-decoration: none;
+	background-color: #87c386;
+	border-color: #37c386;
+	color: #fff;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+/****************Get the Quote Inner pages start here********************/
 
 /* BackToTop button css */
 #scroll {
@@ -1493,3 +2005,4 @@ opacity:1;filter:"alpha(opacity=100)";
 
 
 /* BackToTop button css */
+
