@@ -66,7 +66,7 @@ $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
 
 // redirect to success page 
 if ($success){
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=http://karandave.in\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=https://aksgithub007.github.io/demo_site/index.html\">";
 }
 else{
   print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
